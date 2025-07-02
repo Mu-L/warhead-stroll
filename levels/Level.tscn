@@ -354,8 +354,8 @@ fill_mode = 3
 
 [node name="Right" type="TouchScreenButton" parent="HUD"]
 modulate = Color( 1, 1, 1, 0.501961 )
-position = Vector2( 452, 236 )
-scale = Vector2( 5, 5 )
+position = Vector2( 80, 248 )
+scale = Vector2( 4, 4 )
 z_index = 100
 normal = SubResource( 5 )
 pressed = SubResource( 6 )
@@ -365,9 +365,9 @@ visibility_mode = 1
 
 [node name="Left" type="TouchScreenButton" parent="HUD"]
 modulate = Color( 1, 1, 1, 0.501961 )
-position = Vector2( 60, 316 )
+position = Vector2( 72, 312 )
 rotation = -3.14159
-scale = Vector2( 5, 5 )
+scale = Vector2( 4, 4 )
 z_index = 100
 normal = SubResource( 5 )
 pressed = SubResource( 6 )
@@ -377,21 +377,9 @@ visibility_mode = 1
 
 [node name="Down" type="TouchScreenButton" parent="HUD"]
 modulate = Color( 1, 1, 1, 0.501961 )
-position = Vector2( 104, 280 )
+position = Vector2( 504, 248 )
 rotation = 1.5708
-scale = Vector2( 3, 3 )
-z_index = 100
-normal = SubResource( 5 )
-pressed = SubResource( 6 )
-passby_press = true
-action = "ui_down"
-visibility_mode = 1
-
-[node name="Down2" type="TouchScreenButton" parent="HUD"]
-modulate = Color( 1, 1, 1, 0.501961 )
-position = Vector2( 456, 280 )
-rotation = 1.5708
-scale = Vector2( 3, 3 )
+scale = Vector2( 4, 4 )
 z_index = 100
 normal = SubResource( 5 )
 pressed = SubResource( 6 )
@@ -401,21 +389,9 @@ visibility_mode = 1
 
 [node name="Up" type="TouchScreenButton" parent="HUD"]
 modulate = Color( 1, 1, 1, 0.501961 )
-position = Vector2( 408, 272 )
+position = Vector2( 440, 240 )
 rotation = -1.5708
-scale = Vector2( 3, 3 )
-z_index = 100
-normal = SubResource( 5 )
-pressed = SubResource( 6 )
-passby_press = true
-action = "ui_up"
-visibility_mode = 1
-
-[node name="Up2" type="TouchScreenButton" parent="HUD"]
-modulate = Color( 1, 1, 1, 0.501961 )
-position = Vector2( 56, 272 )
-rotation = -1.5708
-scale = Vector2( 3, 3 )
+scale = Vector2( 4, 4 )
 z_index = 100
 normal = SubResource( 5 )
 pressed = SubResource( 6 )
